@@ -1,0 +1,75 @@
+uuid: 79d8ff4d-8d3a-42d2-ae0c-db8a59e954ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fres_117.body
+    - field.field.node.fres_117.field_email
+    - field.field.node.fres_117.field_image
+    - field.field.node.fres_117.field_interested
+    - field.field.node.fres_117.field_url
+    - node.type.fres_117
+    - responsive_image.styles.my_theme_responsive
+  module:
+    - link
+    - responsive_image
+    - text
+    - user
+id: node.fres_117.default
+targetEntityType: node
+bundle: fres_117
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_image:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: my_theme_responsive
+      image_link: ''
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_interested:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_url:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

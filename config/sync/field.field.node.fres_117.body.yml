@@ -1,0 +1,24 @@
+uuid: 890ec5c6-5a0d-49d7-acde-30b79be73534
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fres_117
+  module:
+    - text
+id: node.fres_117.body
+field_name: body
+entity_type: node
+bundle: fres_117
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: 5945809b-66ab-49c3-860f-82f3eb8a6de9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.fres_117
+id: node.fres_117.field_email
+field_name: field_email
+entity_type: node
+bundle: fres_117
+label: email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

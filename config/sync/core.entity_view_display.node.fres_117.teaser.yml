@@ -1,0 +1,50 @@
+uuid: ec4aba1e-65b5-4b00-96a2-c7287c1dbf35
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fres_117.body
+    - field.field.node.fres_117.field_email
+    - field.field.node.fres_117.field_image
+    - field.field.node.fres_117.field_interested
+    - field.field.node.fres_117.field_url
+    - image.style.medium
+    - node.type.fres_117
+  module:
+    - image
+    - text
+    - user
+id: node.fres_117.teaser
+targetEntityType: node
+bundle: fres_117
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email: true
+  field_interested: true
+  field_url: true
