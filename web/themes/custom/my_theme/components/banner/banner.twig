@@ -1,0 +1,19 @@
+<div class="banner">
+  {% if image %}
+  <div class="banner__image">
+    {{ image }}
+  </div>
+  {% endif %}
+  <div class="banner__content">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      {% if title %}
+        <h1 class="banner__title">{{ title }}</h1>
+      {% endif %}
+      {% if link %}
+        <div class="banner__link">
+          {{ link }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

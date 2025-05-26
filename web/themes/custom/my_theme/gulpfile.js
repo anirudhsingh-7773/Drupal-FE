@@ -30,7 +30,6 @@ function compileSdc() {
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([autoprefixer()]))
     .pipe(cleanCSS())
-    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('.')); // Output in same folder
 }
 
