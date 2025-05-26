@@ -1,0 +1,29 @@
+uuid: 514b089f-acb4-4237-9322-35d846d0ce1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner_view
+  module:
+    - system
+    - views
+  theme:
+    - my_theme
+id: my_theme_views_block__banner_view_block_1
+theme: my_theme
+region: hero
+weight: 0
+provider: null
+plugin: 'views_block:banner_view-block_1'
+settings:
+  id: 'views_block:banner_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

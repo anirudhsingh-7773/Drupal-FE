@@ -1,0 +1,10 @@
+uuid: 53485f4e-7763-4317-91e7-d4685bf4166c
+langcode: en
+status: true
+dependencies: {  }
+id: banner
+label: Banner
+icon_uuid: null
+icon_default: null
+description: 'Create a banner paragraph field.'
+behavior_plugins: {  }
