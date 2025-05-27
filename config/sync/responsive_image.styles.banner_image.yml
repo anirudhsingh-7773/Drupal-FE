@@ -1,0 +1,78 @@
+uuid: 00487f7a-deb8-47a8-af69-fdbf33c6196b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.banner_lg
+    - image.style.banner_md
+    - image.style.banner_sm
+    - image.style.banner_xl
+    - image.style.banner_xs
+    - image.style.banner_xxl
+  theme:
+    - my_theme
+id: banner_image
+label: 'Banner Image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xxl
+    breakpoint_id: my_theme.screen.xxl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xxl
+    breakpoint_id: my_theme.screen.xxl-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xl
+    breakpoint_id: my_theme.screen.xl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xl
+    breakpoint_id: my_theme.screen.xl-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_lg
+    breakpoint_id: my_theme.screen.lg-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_lg
+    breakpoint_id: my_theme.screen.lg-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_md
+    breakpoint_id: my_theme.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_md
+    breakpoint_id: my_theme.screen.md-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_sm
+    breakpoint_id: my_theme.screen.sm-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_sm
+    breakpoint_id: my_theme.screen.sm-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xs
+    breakpoint_id: my_theme.screen.xs-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: banner_xs
+    breakpoint_id: my_theme.screen.xs-max
+    multiplier: 2x
+breakpoint_group: my_theme.screen
+fallback_image_style: banner_xxl

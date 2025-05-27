@@ -1,0 +1,15 @@
+uuid: ea4dd49a-3e7d-4832-879c-80ceda111dc0
+langcode: en
+status: true
+dependencies: {  }
+name: banner_sm
+label: 'Banner sm'
+effects:
+  534c5cac-0f71-43a7-99e8-4030f2860944:
+    uuid: 534c5cac-0f71-43a7-99e8-4030f2860944
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      anchor: center-center

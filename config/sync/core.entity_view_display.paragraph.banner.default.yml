@@ -7,24 +7,25 @@ dependencies:
     - field.field.paragraph.banner.field_go_to
     - field.field.paragraph.banner.field_title
     - paragraphs.paragraphs_type.banner
+    - responsive_image.styles.banner_image
   module:
-    - image
     - link
+    - responsive_image
 id: paragraph.banner.default
 targetEntityType: paragraph
 bundle: banner
 mode: default
 content:
   field_banner_image:
-    type: image
+    type: responsive_image
     label: hidden
     settings:
+      responsive_image_style: banner_image
       image_link: ''
-      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_go_to:
     type: link
@@ -36,7 +37,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_title:
     type: string

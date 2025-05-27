@@ -1,0 +1,15 @@
+uuid: 8cb189ad-bac6-45b3-9f9a-d7a69c9f1aa6
+langcode: en
+status: true
+dependencies: {  }
+name: banner_xs
+label: 'Banner xs'
+effects:
+  b4d5af68-f55d-4252-a4d4-b20a7255342d:
+    uuid: b4d5af68-f55d-4252-a4d4-b20a7255342d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 576
+      height: 324
+      anchor: center-center

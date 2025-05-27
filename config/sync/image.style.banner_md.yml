@@ -1,0 +1,15 @@
+uuid: 789ecc62-0150-4e7d-a241-0855083b8c02
+langcode: en
+status: true
+dependencies: {  }
+name: banner_md
+label: 'Banner md'
+effects:
+  f0479135-04ea-4f31-9642-b0b920a801d8:
+    uuid: f0479135-04ea-4f31-9642-b0b920a801d8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 563
+      anchor: center-center

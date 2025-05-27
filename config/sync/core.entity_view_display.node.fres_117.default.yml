@@ -9,10 +9,8 @@ dependencies:
     - field.field.node.fres_117.field_interested
     - field.field.node.fres_117.field_url
     - node.type.fres_117
-    - responsive_image.styles.my_theme_responsive
   module:
     - link
-    - responsive_image
     - text
     - user
 id: node.fres_117.default
@@ -33,17 +31,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 103
-    region: content
-  field_image:
-    type: responsive_image
-    label: hidden
-    settings:
-      responsive_image_style: my_theme_responsive
-      image_link: ''
-      image_loading:
-        attribute: eager
-    third_party_settings: {  }
-    weight: -1
     region: content
   field_interested:
     type: boolean
@@ -72,4 +59,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_image: true

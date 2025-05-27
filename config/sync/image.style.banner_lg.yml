@@ -1,0 +1,15 @@
+uuid: 8f29da91-e2be-445d-a42e-357cfde9e964
+langcode: en
+status: true
+dependencies: {  }
+name: banner_lg
+label: 'Banner lg'
+effects:
+  b8b7f47c-47e3-4d46-9a31-e1798357fd36:
+    uuid: b8b7f47c-47e3-4d46-9a31-e1798357fd36
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 675
+      anchor: center-center
