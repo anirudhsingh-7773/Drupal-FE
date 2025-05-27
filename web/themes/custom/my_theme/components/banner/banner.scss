@@ -13,13 +13,6 @@
       left: 0;
       right: 0;
     }
-
-    img {
-      height: 500px;
-      width: 100%;
-      object-fit: cover;
-      object-position: center;
-    }
   }
 
   &__content {
@@ -48,14 +41,10 @@
 
   &__title {
     width: 75%;
-
   }
 
   // Mobile (max-width: 575.98px)
   @media (max-width: 575.98px) {
-    &__image img {
-      height: 250px;
-    }
 
     &__title {
       width: 90%;
@@ -70,9 +59,6 @@
 
   // Tablet (576px to 767.98px)
   @media (min-width: 576px) and (max-width: 767.98px) {
-    &__image img {
-      height: 300px;
-    }
 
     &__title {
       width: 85%;
@@ -87,9 +73,6 @@
 
   // Desktop (768px to 991.98px)
   @media (min-width: 768px) and (max-width: 991.98px) {
-    &__image img {
-      height: 400px;
-    }
 
     &__title {
       width: 80%;
@@ -104,9 +87,6 @@
 
   // Large Desktop (min-width: 992px)
   @media (min-width: 992px) {
-    &__image img {
-      height: 500px;
-    }
 
     &__title {
       width: 75%;
