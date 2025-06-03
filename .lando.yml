@@ -1,4 +1,4 @@
-name: fres-111
+name: Drupal-FE-main
 recipe: drupal10
 config:
   webroot: web
