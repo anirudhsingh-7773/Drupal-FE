@@ -1,0 +1,16 @@
+.article {
+
+  &__image {
+    width: 75%;
+    margin-bottom: 2.5rem;
+  }
+
+  &__body {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__tags {
+    font-size: 1.2rem;
+  }
+}

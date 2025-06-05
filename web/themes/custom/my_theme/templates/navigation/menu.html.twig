@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+#}
+{% import _self as menus %}
+
+{#
+  Calling macro to render the full tree.
+#}
+{{ menus.menu_links(items, attributes) }}
+
+{% macro menu_links(items, attributes) %}
+  {% if items %}
+      <ul{{ attributes.addClass(['nav navbar-nav menu']) }}>
+    {% for item in items %}
+      {%
+        set classes_link = [
+          'nav-link',
+          'menu__link',
+          item.in_active_trail ? 'active',
+        ]
+      %}
+      <li{{ item.attributes.addClass('nav-item', 'menu__item') }}>
+        {{ link(item.title, item.url, { 'class': classes_link }) }}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}

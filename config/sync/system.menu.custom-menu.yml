@@ -1,0 +1,8 @@
+uuid: 70b6c485-3d8a-4b97-81b8-860551497b71
+langcode: en
+status: true
+dependencies: {  }
+id: custom-menu
+label: 'Custom Menu'
+description: 'A custom menu for essential links'
+locked: false

@@ -4,30 +4,32 @@ body {
   font-family: 'Lucida Sans', sans-serif;
 }
 
-h1 {
-  font-size: $h1-font-size;
-}
-
-h2 {
-  font-size: $h2-font-size;
-}
-
-h3 {
-  font-size: $h3-font-size;
-}
-
-h4 {
-  font-size: $h4-font-size;
-}
-
-h5 {
-  font-size: $h5-font-size;
-}
-
-h6 {
-  font-size: $h6-font-size;
-}
-
-a {
-  font-size: $link-font-size;
+main, header, footer {
+  h1 {
+    font-size: $h1-font-size;
+  }
+  
+  h2 {
+    font-size: $h2-font-size;
+  }
+  
+  h3 {
+    font-size: $h3-font-size;
+  }
+  
+  h4 {
+    font-size: $h4-font-size;
+  }
+  
+  h5 {
+    font-size: $h5-font-size;
+  }
+  
+  h6 {
+    font-size: $h6-font-size;
+  }
+  
+  a {
+    font-size: $link-font-size;
+  }
 }    

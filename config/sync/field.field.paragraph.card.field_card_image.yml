@@ -1,0 +1,38 @@
+uuid: 4fdc8d3c-9408-4342-a75e-928e9e0ea861
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_image
+    - paragraphs.paragraphs_type.card
+  module:
+    - image
+id: paragraph.card.field_card_image
+field_name: field_card_image
+entity_type: paragraph
+bundle: card
+label: 'card image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
