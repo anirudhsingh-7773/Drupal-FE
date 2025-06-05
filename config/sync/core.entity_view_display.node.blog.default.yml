@@ -8,11 +8,9 @@ dependencies:
     - field.field.node.blog.field_image
     - field.field.node.blog.field_url
     - node.type.blog
-    - responsive_image.styles.my_theme_responsive
   module:
     - entity_reference_revisions
     - link
-    - responsive_image
     - text
     - user
 id: node.blog.default
@@ -36,17 +34,6 @@ content:
     third_party_settings: {  }
     weight: 103
     region: content
-  field_image:
-    type: responsive_image
-    label: above
-    settings:
-      responsive_image_style: my_theme_responsive
-      image_link: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 0
-    region: content
   field_url:
     type: link
     label: hidden
@@ -64,4 +51,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_image: true

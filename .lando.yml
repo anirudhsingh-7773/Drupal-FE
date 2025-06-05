@@ -12,3 +12,9 @@ tooling:
     service: node
   node:
     service: node
+  gulp:
+    service: node
+    cmd: npm exec gulp
+  gulpwatch:
+    service: node
+    cmd: npm exec gulp watch

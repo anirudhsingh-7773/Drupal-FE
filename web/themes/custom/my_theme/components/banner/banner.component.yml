@@ -1,0 +1,17 @@
+name: Banner
+props:
+  type: object
+  required: 
+    - title
+    - image
+    - link
+  properties:
+    title:
+      type: string
+      description: The title text displayed on the banner.
+    image:
+      type: string
+      description: Rendered image HTML
+    link:
+      type: string
+      description: Rendered link HTML

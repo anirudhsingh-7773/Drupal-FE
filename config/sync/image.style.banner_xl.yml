@@ -1,0 +1,15 @@
+uuid: 891c1b31-b140-4b75-a090-91358ffb23b4
+langcode: en
+status: true
+dependencies: {  }
+name: banner_xl
+label: 'Banner xl'
+effects:
+  527aa65b-d2f1-41e0-88d6-06675878d150:
+    uuid: 527aa65b-d2f1-41e0-88d6-06675878d150
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1400
+      height: 787
+      anchor: center-center
