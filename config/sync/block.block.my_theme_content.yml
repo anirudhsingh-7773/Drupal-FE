@@ -1,6 +1,6 @@
 uuid: 6f39a0f7-dc22-42e8-9831-d429bd44fd26
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
 id: my_theme_content
 theme: my_theme
-region: header
-weight: -1
+region: content
+weight: -5
 provider: null
 plugin: system_main_block
 settings:
