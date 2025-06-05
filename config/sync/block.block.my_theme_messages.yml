@@ -1,6 +1,6 @@
 uuid: 562d256c-64d2-4a67-a87f-fcb8cad778ff
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: 9LdMj38y4GDi23GrIUtIZIV1bJEn1C47N19jrswvcLc
 id: my_theme_messages
 theme: my_theme
-region: content
+region: header
 weight: -7
 provider: null
 plugin: system_messages_block

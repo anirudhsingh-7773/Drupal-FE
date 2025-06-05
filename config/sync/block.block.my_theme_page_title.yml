@@ -1,6 +1,6 @@
 uuid: 3d18a254-fb91-49e2-aeac-b0ee1ae4b14b
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - my_theme
@@ -8,7 +8,7 @@ _core:
   default_config_hash: qYppfxaWSy6BwGNKdMch1PeUA24PlRTt39jQft6A6Kg
 id: my_theme_page_title
 theme: my_theme
-region: content
+region: header
 weight: -6
 provider: null
 plugin: page_title_block

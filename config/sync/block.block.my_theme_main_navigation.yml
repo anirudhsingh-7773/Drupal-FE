@@ -1,6 +1,6 @@
 uuid: a4e7d51f-9bf5-49d1-8512-1e528cf6c612
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: Fm7sDs2U1u99MaVOZEZqa-QOJrrUiQMWJb1jMozYO48
 id: my_theme_main_navigation
 theme: my_theme
-region: nav_main
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
