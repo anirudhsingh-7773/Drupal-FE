@@ -38,7 +38,9 @@
     "drupal/core-recommended": "^10.4",
     "drupal/paragraphs": "^1.19",
     "drush/drush": "^12.5",
+    "league/container": "^4.2",
     "oomphinc/composer-installers-extender": "^2.0",
+    "psr/container": "^2.0",
     "slick-carousel/slick-carousel": "^1.8"
   },
   "conflict": {
