@@ -12,8 +12,8 @@ _core:
   default_config_hash: YRZjNp4d68NjJAVhrrUrXKwpV12i7OFWg4MY6Bsd0mw
 id: my_theme_account_menu
 theme: my_theme
-region: nav_additional
-weight: -7
+region: nav_main
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:
