@@ -1,6 +1,6 @@
 uuid: 3aa9c68b-7c19-48f3-9f64-b31ef8b1fa5a
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: 2_xxaOb8b_0AUgYFdJLxIBDDwufyh6YozhGfBd97p38
 id: my_theme_powered_by_drupal
 theme: my_theme
-region: footer
+region: header
 weight: 0
 provider: null
 plugin: system_powered_by_block
