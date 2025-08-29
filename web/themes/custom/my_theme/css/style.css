@@ -48,14 +48,13 @@ a {
 .btn {
   background-color: yellowgreen;
   border-color: yellowgreen;
-  color: black;
+  color: #000000;
 }
 
-.navbar {
+header .navbar {
   background-color: #757507;
 }
-
-.region-nav-additional {
+header .region-nav-additional {
   display: flex;
   justify-content: center;
 }
