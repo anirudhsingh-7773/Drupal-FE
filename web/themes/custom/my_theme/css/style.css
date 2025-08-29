@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: 1.25rem;
+}
+
+.btn {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  color: black;
+}
+
+.navbar {
+  background-color: #757507;
+}
+
+.region-nav-additional {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #757507;
+}

@@ -1,0 +1,12 @@
+@use '../variables' as *;
+
+header {
+  .navbar {
+    background-color: $primary-color;
+  }
+  
+  .region-nav-additional {
+    display: flex;
+    justify-content: center;
+  }  
+}

@@ -47,4 +47,5 @@ theme:
   claro: 0
   stable9: 0
   bootstrap5: 0
+  my_theme: 0
 profile: standard
