@@ -1,0 +1,30 @@
+uuid: 363b6693-d846-472b-80bf-464c00f73bbc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block:ecf0d5ae-07aa-42fd-8a79-c2340e7248c2'
+  module:
+    - block_content
+    - system
+  theme:
+    - my_theme
+id: my_theme_todolist
+theme: my_theme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:ecf0d5ae-07aa-42fd-8a79-c2340e7248c2'
+settings:
+  id: 'block_content:ecf0d5ae-07aa-42fd-8a79-c2340e7248c2'
+  label: 'To do List'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,12 @@
+<div id="todo-app" class="todo">
+  <h2>To-Do List</h2>
+  <ul class="todo__list">
+
+    <!-- Tasks will be added dynamically with JS -->
+  </ul>
+  <input type="text" class="todo__input" placeholder="{{ 'Add a task...'|t }}" />
+  <button class="todo__add">{{ 'Add'|t }}</button>
+</div>
+
+{{ attach_library('my_theme/todo-list-assets') }}
+{{ attach_library('my_theme/fontawesome') }}
